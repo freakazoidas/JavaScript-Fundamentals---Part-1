@@ -50,25 +50,54 @@
 // const johnBMI = 25;
 // const markHigherBMI = johnBMI > markBmi;
 // console.log(markHigherBMI);
-const firstName = "Mantas";
-const job = "techop";
-const birthYear = 1989;
-const currentYear = 2037;
+// const firstName = "Mantas";
+// const job = "techop";
+// const birthYear = 1989;
+// const currentYear = 2037;
 
-const jonas =
-  "I'm " + firstName + " am a " + (currentYear - birthYear) + "years old" + job;
-console.log(jonas);
-const jonasNew = `I'm ${firstName}, a ${
-  currentYear - birthYear
-} year old ${job}`;
+// const jonas =
+//   "I'm " + firstName + " am a " + (currentYear - birthYear) + "years old" + job;
+// console.log(jonas);
+// const jonasNew = `I'm ${firstName}, a ${
+//   currentYear - birthYear
+// } year old ${job}`;
 
-console.log(jonasNew);
+// console.log(jonasNew);
 
-console.log(`just regular string`);
+// console.log(`just regular string`);
 
-console.log(`first line \n\second line \n\third line`);
+// console.log(`first line \n\
+// second line \n\
+// third line`);
 
-console.log(`and
-it 
-also 
-works this way too`);
+// console.log(`and
+// it
+// also
+// works this way too`);
+
+// const age = 15;
+
+// if (age >= 18) {
+//   console.log("Sarah can start driving 🚗");
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`Sarah is too young, wait another ${yearsLeft} years 😊`);
+// }
+
+// const birthYear = 1995;
+// let century;
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
+// console.log(century);
+
+const johnBMI = 25;
+const markBMI = 27;
+
+if (johnBMI > markBMI) {
+  console.log(`John's BMI ${johnBMI} is larger than Marks ${markBMI}`);
+} else {
+  console.log(`Marks's BMI ${markBMI} is larger than Johns ${johnBMI}`);
+}
