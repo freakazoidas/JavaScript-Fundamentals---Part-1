@@ -93,11 +93,36 @@
 // }
 // console.log(century);
 
-const johnBMI = 25;
-const markBMI = 27;
+// const johnBMI = 25;
+// const markBMI = 27;
 
-if (johnBMI > markBMI) {
-  console.log(`John's BMI ${johnBMI} is larger than Marks ${markBMI}`);
-} else {
-  console.log(`Marks's BMI ${markBMI} is larger than Johns ${johnBMI}`);
-}
+// if (johnBMI > markBMI) {
+//   console.log(`John's BMI ${johnBMI} is larger than Marks ${markBMI}`);
+// } else {
+//   console.log(`Marks's BMI ${markBMI} is larger than Johns ${johnBMI}`);
+// }
+
+//type conversion
+const inputYear = "1991";
+console.log(Number(inputYear));
+console.log(Number(inputYear) + 18);
+
+console.log(Number("Jonas"));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+//type coercion
+console.log("I am " + 23 + " years old");
+console.log("I am " + "23" + " years old");
+console.log("23" - "10" - 3);
+console.log("23" + "10" + 3);
+console.log("23" * "2", "23" / "2");
+
+let n = "1" + 1; // 11 nes +
+n = n - 1;
+console.log(n);
+
+console.log(2 + 3 + 5 + "5");
+typeof (2 + 3 + 5 + "5");
+console.log("10" - "4" - "3" - 2 + "5");
