@@ -169,12 +169,12 @@
 // if (favoriteNumber !== 23) console.log("why not 23");
 
 // Logical operators
-const hasDriversLicence = true; // A
-const hasGoodVision = true; // B
+// const hasDriversLicence = true; // A
+// const hasGoodVision = true; // B
 
-console.log(hasDriversLicence && hasGoodVision);
-console.log(hasDriversLicence || hasGoodVision);
-console.log(!hasDriversLicence || hasGoodVision);
+// console.log(hasDriversLicence && hasGoodVision);
+// console.log(hasDriversLicence || hasGoodVision);
+// console.log(!hasDriversLicence || hasGoodVision);
 
 // const shouldDrive = hasDriversLicence && hasGoodVision;
 
@@ -192,15 +192,54 @@ console.log(!hasDriversLicence || hasGoodVision);
 // } else {
 //   console.log("sarah should not drive");
 // }
-const D = 88;
-const K = 88;
+// const D = 88;
+// const K = 88;
 
-if (D === K && (D < 100 || K < 100)) {
-  console.log("draw, but no winners, since less then 100");
-} else if (D === K) {
-  console.log("draw");
-} else if (K > 100 && K > D) {
-  console.log("K is winner");
-} else if (K < D && D > 100) {
-  console.log("D is winner");
-} else console.log("no winner, since winner scores below 100");
+// if (D === K && (D < 100 || K < 100)) {
+//   console.log("draw, but no winners, since less then 100");
+// } else if (D === K) {
+//   console.log("draw");
+// } else if (K > 100 && K > D) {
+//   console.log("K is winner");
+// } else if (K < D && D > 100) {
+//   console.log("D is winner");
+// } else console.log("no winner, since winner scores below 100");
+
+// Switch statement to replace if else
+const day = "wednesday";
+
+switch (day) {
+  case "monday": // day === 'monday'
+    console.log("Do thing 1");
+    console.log("do thing 2");
+    break;
+  case "tuesday":
+    console.log("do thing 3");
+    break;
+  case "thursday":
+  case "wednesday":
+    console.log("do thing 4");
+    break;
+
+  case "friday":
+    console.log("do thing 5");
+    break;
+
+  case "saturday":
+  case "sunday":
+    console.log("do thing 6");
+    break;
+  default:
+    console.log("not a valid day");
+}
+//same as
+
+if (day === "monday") {
+  console.log("Do thing 1");
+  console.log("do thing 2");
+  console.log("do thing 3");
+} else if (day === "tuesday") {
+  console.log("do thing 3");
+} else if (day === "wednesday" || day === "thursday") {
+  console.log("do thing 4");
+}
