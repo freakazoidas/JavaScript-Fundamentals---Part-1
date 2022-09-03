@@ -184,11 +184,23 @@ console.log(!hasDriversLicence || hasGoodVision);
 //   console.log("sarah should not drive");
 // }
 
-const isTired = false; // C
-console.log(hasDriversLicence || hasGoodVision || isTired);
+// const isTired = false; // C
+// console.log(hasDriversLicence || hasGoodVision || isTired);
 
-if (hasDriversLicence && hasGoodVision && !isTired) {
-  console.log("sarah is good to drive");
-} else {
-  console.log("sarah should not drive");
-}
+// if (hasDriversLicence && hasGoodVision && !isTired) {
+//   console.log("sarah is good to drive");
+// } else {
+//   console.log("sarah should not drive");
+// }
+const D = 88;
+const K = 88;
+
+if (D === K && (D < 100 || K < 100)) {
+  console.log("draw, but no winners, since less then 100");
+} else if (D === K) {
+  console.log("draw");
+} else if (K > 100 && K > D) {
+  console.log("K is winner");
+} else if (K < D && D > 100) {
+  console.log("D is winner");
+} else console.log("no winner, since winner scores below 100");
