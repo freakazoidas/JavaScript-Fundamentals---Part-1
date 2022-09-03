@@ -167,3 +167,28 @@
 // }
 
 // if (favoriteNumber !== 23) console.log("why not 23");
+
+// Logical operators
+const hasDriversLicence = true; // A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLicence && hasGoodVision);
+console.log(hasDriversLicence || hasGoodVision);
+console.log(!hasDriversLicence || hasGoodVision);
+
+// const shouldDrive = hasDriversLicence && hasGoodVision;
+
+// if (hasDriversLicence && hasGoodVision) {
+//   console.log("saras good to drive");
+// } else {
+//   console.log("sarah should not drive");
+// }
+
+const isTired = false; // C
+console.log(hasDriversLicence || hasGoodVision || isTired);
+
+if (hasDriversLicence && hasGoodVision && !isTired) {
+  console.log("sarah is good to drive");
+} else {
+  console.log("sarah should not drive");
+}
