@@ -103,26 +103,67 @@
 // }
 
 //type conversion
-const inputYear = "1991";
-console.log(Number(inputYear));
-console.log(Number(inputYear) + 18);
+// const inputYear = "1991";
+// console.log(Number(inputYear));
+// console.log(Number(inputYear) + 18);
 
-console.log(Number("Jonas"));
-console.log(typeof NaN);
+// console.log(Number("Jonas"));
+// console.log(typeof NaN);
 
-console.log(String(23), 23);
+// console.log(String(23), 23);
 
-//type coercion
-console.log("I am " + 23 + " years old");
-console.log("I am " + "23" + " years old");
-console.log("23" - "10" - 3);
-console.log("23" + "10" + 3);
-console.log("23" * "2", "23" / "2");
+// //type coercion
+// console.log("I am " + 23 + " years old");
+// console.log("I am " + "23" + " years old");
+// console.log("23" - "10" - 3);
+// console.log("23" + "10" + 3);
+// console.log("23" * "2", "23" / "2");
 
-let n = "1" + 1; // 11 nes +
-n = n - 1;
-console.log(n);
+// let n = "1" + 1; // 11 nes +
+// n = n - 1;
+// console.log(n);
 
-console.log(2 + 3 + 5 + "5");
-typeof (2 + 3 + 5 + "5");
-console.log("10" - "4" - "3" - 2 + "5");
+// console.log(2 + 3 + 5 + "5");
+// typeof (2 + 3 + 5 + "5");
+// console.log("10" - "4" - "3" - 2 + "5");
+
+// // 5 falsy values: 0, '', undefined, null, NaN
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean("Jonas"));
+// console.log(Boolean({}));
+// console.log(Boolean(""));
+
+// const money = 100;
+// if (money) {
+//   console.log("Don't spend it all;)");
+// } else {
+//   console.log("you should get a job!");
+// }
+
+// let height = 0;
+// if (height) {
+//   console.log("height is defined");
+// } else {
+//   console.log("height undefined");
+// }
+
+// // Equality operator + if, else if, else, not equality operator
+// const age = "18";
+// if (age === 18) console.log("you became adult (strict)");
+// if (age == 18) console.log("you became adult (loose)");
+
+// const favoriteNumber = Number(prompt("favorite number?"));
+// console.log(favoriteNumber);
+// console.log(typeof favoriteNumber);
+
+// if (favoriteNumber === 23) {
+//   // 23 === 23, '23' == 23 -> TRUE ; 22 === 23 -> FALSE
+//   console.log("23 is great number");
+// } else if (favoriteNumber === 7) {
+//   console.log("7 also good");
+// } else {
+//   console.log("not 7 or 23");
+// }
+
+// if (favoriteNumber !== 23) console.log("why not 23");
